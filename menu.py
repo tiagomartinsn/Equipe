@@ -3,6 +3,7 @@ from aluno import aluno
 
 eq = equipe('Alunos')
 while True:
+    print '\n==== PROJETO ALUNOS NA ESCOLA ===='
     print '1 - Adicionar aluno'
     print '2 - Remover aluno'
     print '3 - Mostrar alunos'

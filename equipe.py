@@ -19,7 +19,7 @@ class equipe:
             self.lista.remove(aluno)
     def imprimir(self):
         for i in range(len(self.lista)):
-            print 'Nome da equipe: %s ' % (self.getProjeto())
+            print '\nNome da equipe: %s ' % (self.getProjeto())
             print 'Aluno: %s \nCPF: %i' % (self.lista[i].getNome(),self.lista[i].getCpf())
 
     def procuraA(self,cpf):
